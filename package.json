@@ -1,16 +1,35 @@
 {
-    "name": "project-js-astro-weight",
-    "version": "0.1.0",
-    "scripts": {
-        "start": "static -H \"{\\\"Cache-Control\\\": \\\"no-cache, must-revalidate\\\"}\"",
-        "test": "mocha test --exit"
-    },
-    "dependencies": {
-        "axios": "^0.16.2",
-        "chai": "^4.0.2",
-        "express": "^4.15.3",
-        "mocha": "^3.2.0",
-        "nightmare": "^3.0.1",
-        "node-static": "^0.7.9"
-    }
+  "name": "project-js-astro-weight",
+  "version": "0.1.0",
+  "scripts": {
+    "start": "static -H \"{\\\"Cache-Control\\\": \\\"no-cache, must-revalidate\\\"}\"",
+    "test": "mocha test --exit"
+  },
+  "dependencies": {
+    "axios": "^0.16.2",
+    "bootstrap": "^4.3.1",
+    "chai": "^4.0.2",
+    "express": "^4.15.3",
+    "jquery": "^3.3.1",
+    "mocha": "^6.0.2",
+    "nightmare": "^3.0.1",
+    "node-static": "^0.7.9",
+    "popper.js": "^1.14.7"
+  },
+  "description": "Calculates weight on various astral bodies",
+  "main": "main.js",
+  "directories": {
+    "test": "test"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SanDiegoCodeSchool/web102-astroweight-calculator.git"
+  },
+  "author": "GianFiyah",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SanDiegoCodeSchool/web102-astroweight-calculator/issues"
+  },
+  "homepage": "https://github.com/SanDiegoCodeSchool/web102-astroweight-calculator#readme"
 }
